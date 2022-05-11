@@ -7,7 +7,7 @@ try{
 
 describe("My hello", () => {
   test("works", () => {
-    expect(hello.hello()).toEqual("Hello World!");
+    expect(hello.hello()).toEqual("Hello World");
   });
 });
 }catch (error) {
